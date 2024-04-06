@@ -33,9 +33,9 @@ i{
     font-size: 30px;
 }
 
-.body{
-    /* height: 500px; */
-}
+/* .body{
+    height: 500px;
+} */
 
 .banner{
     height: 600px;
@@ -72,22 +72,25 @@ i{
 .card-body{
     background-color: rgba(128, 128, 128, 0.250);
     height: 500px;
-    padding: 80px 50px;
+    padding: 80px 70px;
 }
 
 .card-div{
     display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
 }
 
 .card-div .card{
     /* background-color: yellow;
     border: 2px solid black; */
+
     height: 420px;
     width: 300px;
 }
 
 .c-details{
-    padding: 0.7rem 0;
+    padding: 1rem 0;
 }
 
 .c-details h3{
@@ -95,8 +98,17 @@ i{
 }
 
 .c-button button{
+    margin-top: 10px;
     height: 2rem;
     width: 8rem;
     color: white;
     background-color: black;
+}
+
+.Dinning{
+    text-align: center;
+}
+
+.Pools{
+    text-align: end;
 }
