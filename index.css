@@ -17,9 +17,10 @@
 
 .header-content-links a{
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: larger;
     color: black;
-    margin-left: 3px;
+    margin-right: 45px;
 }
 
 .social-media{
@@ -33,5 +34,35 @@ i{
 }
 
 .body{
+    /* height: 500px; */
+}
+
+.banner{
+    height: 600px;
     background-image: url(./resources/back.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.banner button{
+    position: relative;
+    top: 550px;
+    left: 60px;
+    width: 15rem;
+    height:2.5rem;
+}
+
+.banner-details{
+    padding: 0px 50px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap:80px;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.text{
+    width:300px;
+    text-align: center;
 }
