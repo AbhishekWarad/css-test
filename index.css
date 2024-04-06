@@ -54,15 +54,49 @@ i{
 
 .banner-details{
     padding: 0px 50px;
-    height: max-content;
+    height: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:80px;
-    flex-wrap: wrap;
-    background-color: grey;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    background-color: rgba(128, 128, 128, 0.534);
 }
 
 .text{
     width:300px;
     text-align: center;
+}
+
+.card-body{
+    background-color: rgba(128, 128, 128, 0.250);
+    height: 500px;
+    padding: 80px 50px;
+}
+
+.card-div{
+    display: flex;
+}
+
+.card-div .card{
+    /* background-color: yellow;
+    border: 2px solid black; */
+    height: 420px;
+    width: 300px;
+}
+
+.c-details{
+    padding: 0.7rem 0;
+}
+
+.c-details h3{
+    padding: 0px 0px 10px 0;
+}
+
+.c-button button{
+    height: 2rem;
+    width: 8rem;
+    color: white;
+    background-color: black;
 }
